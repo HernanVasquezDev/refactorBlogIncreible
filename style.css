@@ -21,8 +21,7 @@ body {
 }
 
 .navbar h1 {
-  color: #b30000;
-  text-shadow: 0 0 10px #ffcc00;
+  text-shadow: 0 0 10px #ffcc00 !important;
 }
 
 .nav-links {
