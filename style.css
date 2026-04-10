@@ -221,25 +221,12 @@ footer a {
         grid-template-columns: 1fr;
     }
 }
-.SocialMedias ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+
+.social-icon {
+  transition: all 0,3s ease;
 }
 
-.SocialMedias a {
-  color: #eaeaea;
-  display: inline-flex;
-  transition: 0.3s;
-}
-
-.SocialMedias svg {
-  width: 30px;
-  height: 30px;
-}
-
-#SocialMedias a:hover {
+.social-icon:hover {
   color: #ffcc00;
   transform: scale(1.2);
 }
@@ -256,33 +243,15 @@ footer a {
   border: 2px solid yellow;
 }
 
-.who {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 12px;
-  font-family: Arial, sans-serif;
-}
-
-.AboutUs {
-  background: #f5f7fa;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
 .AboutUs h2 {
   margin-bottom: 10px;
-  color: #333;
+  color: #a70101;
 }
 
 .AboutUs p {
   color: #555;
 }
 
-.authorsSection {
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
 
 .authorsSection h3 {
   text-align: center;
