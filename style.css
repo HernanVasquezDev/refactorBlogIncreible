@@ -359,3 +359,13 @@ figcaption {
     max-width: 100%;
   }
 }
+
+.navbar-brand {
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff0000, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}

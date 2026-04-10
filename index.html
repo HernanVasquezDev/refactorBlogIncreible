@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-danger">
     <div class="container">
-      <a class="navbar-brand text-danger fw-bold border-warning" href="index.html">HUNGER GAMES</a>
+      <a class="navbar-brand" href="#">
+        HUNGER <span class="text-warning">GAMES</span>
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
@@ -38,7 +41,8 @@
         <div class="row g-3 align-items-center">
 
           <div class="col-md-5">
-            <img src="img/HungerGames7.jpg" class="img-fluid rounded" style="max-height:400px; width:100%; object-fit: cover;">
+            <img src="img/HungerGames7.jpg" class="img-fluid rounded"
+              style="max-height:400px; width:100%; object-fit: cover;">
           </div>
 
           <div class="col-md-7">
@@ -65,7 +69,7 @@
       </div>
     </section>
 
-  
+
     <section class="mb-5">
       <h2 class="text-center text-danger mb-4">Películas</h2>
 
@@ -76,7 +80,8 @@
             <img src="img/img1.jpg" class="card-img-top">
             <div class="card-body">
               <h5>Los Juegos del Hambre (2012)</h5>
-              <p class="small text-light opacity-75"></p>Katniss se ofrece como voluntaria en un juego mortal televisado.</p>
+              <p class="small text-light opacity-75"></p>Katniss se ofrece como voluntaria en un juego mortal
+              televisado.</p>
             </div>
           </div>
         </div>
@@ -123,7 +128,7 @@
             <img src="img/katniss.jpg" class="card-img-top">
             <div class="card-body">
               <h5>Katniss Everdeen</h5>
-              <p class="small text-light opacity-75">La chispa de la rebelión</p>  
+              <p class="small text-light opacity-75">La chispa de la rebelión</p>
             </div>
           </div>
         </div>
@@ -165,9 +170,30 @@
 
 
   <footer class="bg-dark text-center text-light py-4 border-top border-danger mt-5">
-    <h5 class="text-warning">Hunger Games</h5>
+    <div class="d-flex flex-column align-items-center">
 
-    <p class="small bg-dark text-light opacity-75" >
+      <svg class="phoenix-logo" viewBox="0 0 200 200" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="fireGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff0000" />
+            <stop offset="50%" stop-color="#ff6600" />
+            <stop offset="100%" stop-color="#ffcc00" />
+          </linearGradient>
+        </defs>
+
+
+        <path d="M20 120 Q60 40 100 90 Q140 40 180 120 Q140 100 100 130 Q60 100 20 120 Z" fill="url(#fireGradient)" />
+
+        <path d="M100 80 Q110 120 100 160 Q90 120 100 80 Z" fill="url(#fireGradient)" />
+
+        <circle cx="100" cy="70" r="8" fill="#ffcc00" />
+        <path d="M90 150 Q100 180 110 150" stroke="#ff6600" stroke-width="4" fill="none" />
+      </svg>
+
+      <span class="text-warning small mt-1">HUNGER GAMES</span>
+
+    </div>
+    <p class="small bg-dark text-light opacity-75">
       Handry Moran · Alexandra Diaz · Leisy Sanchez · Fernando Alayón · Hernan Vasquez
     </p>
 
@@ -179,4 +205,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
