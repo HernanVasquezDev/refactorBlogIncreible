@@ -55,28 +55,6 @@ main {
   gap: 20px;
 }
 
-.card {
-  background: #1c1c1c;
-  color: white;
-  border-radius: 15px;
-  padding: 15px;
-  text-align: center;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.card h3 {
-  margin: 10px 0;
-}
-
 .extra-container {
   margin-top: 40px;
   display: flex;
@@ -227,8 +205,9 @@ footer a {
 }
 
 .social-icon:hover {
-  color: #ffcc00;
+  color: #ffcc00 !important; 
   transform: scale(1.2);
+  
 }
 
 .mapa {
