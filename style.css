@@ -239,7 +239,7 @@ footer a {
   height: 30px;
 }
 
-.SocialMedias a:hover {
+#SocialMedias a:hover {
   color: #ffcc00;
   transform: scale(1.2);
 }
@@ -357,23 +357,6 @@ figcaption {
 }
 
 
-.cards {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.card,
-.team-card,
-.about-card {
-  transition: all 0.25s ease;
-}
-
-.card:hover,
-.team-card:hover,
-.about-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-
 .card-review {
   align-items: center;
 }
@@ -419,9 +402,6 @@ figcaption {
     transition: 0.3s;
   }
 
-  #menu-toggle:checked + .menu-icon + .nav-links {
-    transform: translateY(0);
-  }
 
   .card-review {
     flex-direction: column;
