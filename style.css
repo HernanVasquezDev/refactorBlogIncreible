@@ -310,8 +310,6 @@ footer a {
   color: #ffffff;
 }
 
-/* --- Estilos para la sección de Personajes --- */
-
 .characters-section {
     margin-top: 30px;
     border-top: 2px solid #708250; 
@@ -319,7 +317,7 @@ footer a {
 }
 
 .extra-article img {
-    width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
+    width: 100%; 
     max-width: 400px; 
     height: auto;
     border-radius: 8px; 
@@ -340,8 +338,6 @@ figcaption {
     margin-bottom: 10px;
 }
 
-/* NAVBAR SIN JS */
-
 .menu-icon {
   display: none;
   font-size: 26px;
@@ -353,8 +349,6 @@ figcaption {
   display: none;
 }
 
-/* LAYOUT PRINCIPAL */
-
 .main-layout {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -362,13 +356,10 @@ figcaption {
   padding: 30px;
 }
 
-/* FIX CARDS RESPONSIVE (sin romper tu estilo) */
 
 .cards {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-
-/* MEJORA VISUAL SUAVE (respeta tu diseño) */
 
 .card,
 .team-card,
@@ -383,8 +374,6 @@ figcaption {
   box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
-/* REVIEW MÁS PRO SIN CAMBIAR TU BASE */
-
 .card-review {
   align-items: center;
 }
@@ -394,14 +383,11 @@ figcaption {
   object-fit: cover;
 }
 
-/* SIDEBAR */
 
 .sidebar {
   position: sticky;
   top: 90px;
 }
-
-/* RESPONSIVE */
 
 @media (max-width: 900px) {
   .main-layout {
